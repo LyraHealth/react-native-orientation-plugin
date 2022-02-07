@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "Config plugin to auto configure react-native-orientation on prebuild",
     "main": "build/withOrientation.js",
+    "homepage": ".",
     "types": "build/withOrientation.d.ts",
     "sideEffects": false,
     "files": [
