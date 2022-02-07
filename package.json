@@ -1,36 +1,45 @@
 {
-    "name": "react-native-orientation-plugin",
-    "version": "1.0.0",
-    "description": "Config plugin to auto configure react-native-orientation on prebuild",
-    "main": "build/withOrientation.js",
-    "homepage": ".",
-    "types": "build/withOrientation.d.ts",
-    "sideEffects": false,
-    "files": [
-        "build",
-        "app.plugin.js"
-    ],
-    "scripts": {
-        "build": "expo-module build",
-        "clean": "expo-module clean",
-        "lint": "expo-module lint",
-        "test": "expo-module test",
-        "prepare": "expo-module prepare",
-        "prepublishOnly": "expo-module prepublishOnly",
-        "expo-module": "expo-module"
-    },
-    "keywords": [
-        "react-native",
-        "expo"
-    ],
-    "jest": {
-        "preset": "expo-module-scripts"
-    },
-    "dependencies": {
-        "@expo/config-plugins": "^4.0.2"
-    },
-    "devDependencies": {
-        "@types/node": "^14.0.5",
-        "expo-module-scripts": "^2.0.0"
-    }
+  "name": "react-native-orientation-plugin",
+  "version": "1.0.0",
+  "description": "Config plugin to auto configure react-native-orientation on prebuild",
+  "main": "build/withOrientation.js",
+  "homepage": "https://github.com/LyraHealth/react-native-orientation-plugin",
+  "types": "build/withOrientation.d.ts",
+  "sideEffects": false,
+  "author": "LyraHealth",
+  "license": "MIT",
+  "files": [
+    "build",
+    "app.plugin.js"
+  ],
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "react-native",
+    "expo"
+  ],
+  "jest": {
+    "preset": "expo-module-scripts"
+  },
+  "dependencies": {
+    "@expo/config-plugins": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.5",
+    "expo-module-scripts": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:LyraHealth/react-native-orientation-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LyraHealth/react-native-orientation-plugin/issues"
+  }
 }
