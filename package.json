@@ -22,6 +22,8 @@
     "expo-module": "expo-module"
   },
   "keywords": [
+    "react-native-orientation-plugin",
+    "react-native-orientation",
     "react-native",
     "expo"
   ],
