@@ -1,5 +1,5 @@
 {
-  "name": "react-native-orientation-plugin",
+  "name": "@lyrahealth-inc/react-native-orientation-plugin",
   "version": "1.0.1",
   "description": "Config plugin to auto configure react-native-orientation on prebuild",
   "main": "build/withOrientation.js",
