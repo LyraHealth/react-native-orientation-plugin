@@ -6,7 +6,7 @@
   "homepage": "https://github.com/LyraHealth/react-native-orientation-plugin",
   "types": "build/withOrientation.d.ts",
   "sideEffects": false,
-  "author": "LyraHealth",
+  "author": "Bryan Nguyen",
   "license": "MIT",
   "files": [
     "build",
