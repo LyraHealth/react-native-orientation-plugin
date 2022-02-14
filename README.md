@@ -4,14 +4,14 @@ An expo config plugin created to insert native code into the compiled ios/androi
 ## Setup
 `npm install react-native-orientation`
 
-`npm install react-native-orientation-plugin`
+`npm install @lyrahealth-inc/react-native-orientation-plugin`
 
 Add the [config plugin](https://docs.expo.io/guides/config-plugins/) to the [`plugins`](https://docs.expo.io/versions/latest/config/app/#plugins) array of your `app.json` or `app.config.js`:
 
 ```json
 {
   "expo": {
-    "plugins": ["react-native-orientation-plugin"]
+    "plugins": ["@lyrahealth-inc/react-native-orientation-plugin"]
   }
 }
 ```
